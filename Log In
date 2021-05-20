@@ -1,0 +1,46 @@
+E-mail 
+        Input existent address    Smoke
+        hole e-mail address       Critical path
+        Enter nonexistent         Critical path
+        MAX letters               Extended
+        Other languages           Extended
+        Numbers                   Critical path
+        More than maximum +1      Extended
+        Less than minimum values  Extended
+        Special characters (~`!@#$%^&*'()_+=-\|</>{.}[,]";:?) Critical path
+        @ is not entered         Critical path
+        @ more than 2 times entered extended
+        Spaces at the end and beginning Critical path
+        Spaces in the middle        Extended
+        lower-case letters        Critical path
+        upper-case letters        Critical path
+ Password
+          Enter a valid password Smoke
+          Empty field            Critical path
+          MIN characters         Critical path
+          MAX characters         Critical path
+          MAX + 1 characters     Extended
+          Other languages        Extended
+          lower-case letters     Critical path
+          upper-case letters     Critical path
+          Numbers                Critical path
+          Special characters(~`!@#$%^&*'()_+=-\|</>{.}[,]";:?) Critical path
+          Spaces at the end and beginning (Must be taken as part of the password) Critical path
+          field E-mail and password match Critical path
+          Tags (<script>alert('test')</script> ; <p>test</p>) Extended
+Button "Log-IN"
+           Сlick once on the button Smoke
+           Multiply pressing does not call the function several times        Critical path
+           Clicking near the button should not initialize the function call  Critical path
+           Clicking on the the whole button, not just the name               Critical path
+           There is a button name                                            Critical path
+           Field name is centered                                            Critical path
+           The effect of clicking, the button changes                        Critical path
+           
+          
+          
+          
+          
+          
+        
+        
