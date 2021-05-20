@@ -8,7 +8,7 @@ E-mail
         More than maximum +1      Extended
         Less than minimum values  Extended
         Special characters (~`!@#$%^&*'()_+=-\|</>{.}[,]";:?) Critical path
-        @ is not entered         Critical path
+        @ is not entered          Critical path
         @ more than 2 times entered extended
         Spaces at the end and beginning Critical path
         Spaces in the middle        Extended
