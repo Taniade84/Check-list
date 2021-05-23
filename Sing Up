@@ -15,4 +15,18 @@ Name,surname
     lower-case letters        Critical path
     upper-case letters        Critical path
 E-mail, numbertelephone
-    
+    Input existent address    Smoke
+    hole e-mail address       Critical path
+    Enter nonexistent         Critical path
+    MAX letters               Extended
+    Other languages           Extended
+    Numbers                   Critical path
+    More than maximum +1      Extended
+    Less than minimum values  Extended
+    Special characters (~`!@#$%^&*'()_+=-\|</>{.}[,]";:?) Critical path
+    @ is not entered          Critical path
+    @ more than 2 times entered extended
+    Spaces at the end and beginning Critical path
+    Spaces in the middle        Extended
+    lower-case letters        Critical path
+    upper-case letters        Critical path
