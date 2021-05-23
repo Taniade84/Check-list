@@ -1,2 +1,18 @@
-Name
-    Enter a valid name Smoke
+Name,surname
+    Enter a valid name        Smoke
+    hole name                 Critical path
+    Empty field               Critical path
+    MAX letters               Extended
+    Other languages           Extended
+    Numbers                   Critical path
+    More than maximum +1      Extended
+    Less than minimum values  Extended
+    Special characters (~`!@#$%^&*'()_+=-\|</>{.}[,]";:?) Critical path
+    Tags                      Extended
+    Different encodings       Extended
+    Spaces at the end and beginning Critical path
+    Spaces in the middle      Extended
+    lower-case letters        Critical path
+    upper-case letters        Critical path
+E-mail, numbertelephone
+    
