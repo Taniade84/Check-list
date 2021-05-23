@@ -1,6 +1,6 @@
 Name,surname
     Enter a valid name        Smoke
-    hole name                 Critical path
+    Hole name                 Critical path
     Empty field               Critical path
     MAX letters               Extended
     Other languages           Extended
@@ -12,11 +12,11 @@ Name,surname
     Different encodings       Extended
     Spaces at the end and beginning Critical path
     Spaces in the middle      Extended
-    lower-case letters        Critical path
-    upper-case letters        Critical path
+    Lower-case letters        Critical path
+    Upper-case letters        Critical path
 E-mail, numbertelephone
     Input existent address    Smoke
-    hole e-mail address       Critical path
+    Hole e-mail address       Critical path
     Enter nonexistent         Critical path
     MAX letters               Extended
     Other languages           Extended
@@ -28,19 +28,29 @@ E-mail, numbertelephone
     @ more than 2 times entered extended
     Spaces at the end and beginning Critical path
     Spaces in the middle        Extended
-    lower-case letters        Critical path
-    upper-case letters        Critical path
+    Lower-case letters        Critical path
+    Upper-case letters        Critical path
 Password
-    Enter a valid password Smoke
-    Empty field            Critical path
-    MIN characters         Critical path
-    MAX characters         Critical path
-    MAX + 1 characters     Extended
-    Other languages        Extended
-    lower-case letters     Critical path
-    upper-case letters     Critical path
-    Numbers                Critical path
+    Enter a valid password    Smoke
+    Empty field               Critical path
+    MIN characters            Critical path
+    MAX characters            Critical path
+    MAX + 1 characters        Extended
+    Other languages           Extended
+    Lower-case letters        Critical path
+    Upper-case letters        Critical path
+    Numbers                   Critical path
     Special characters(~`!@#$%^&*'()_+=-\|</>{.}[,]";:?) Critical path
     Spaces at the end and beginning (Must be taken as part of the password) Critical path
-    field E-mail and password match Critical path
+    Field E-mail and password match Critical path
     Tags (<script>alert('test')</script> ; <p>test</p>) Extended
+Checkboxes Date of Birth
+    Enter a valid date        Smoke
+    Enter a non-existent date Extended
+    Selected values are not saved  Crical path
+    dates are not selectable  Critical path
+    
+    
+    
+    
+    
