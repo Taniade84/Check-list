@@ -14,7 +14,7 @@ Name,surname
     Spaces in the middle      Extended
     Lower-case letters        Critical path
     Upper-case letters        Critical path
-E-mail, numbertelephone
+E-mail, number telephone
     Input existent address    Smoke
     Hole e-mail address       Critical path
     Enter nonexistent         Critical path
