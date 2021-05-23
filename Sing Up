@@ -30,3 +30,17 @@ E-mail, numbertelephone
     Spaces in the middle        Extended
     lower-case letters        Critical path
     upper-case letters        Critical path
+Password
+    Enter a valid password Smoke
+    Empty field            Critical path
+    MIN characters         Critical path
+    MAX characters         Critical path
+    MAX + 1 characters     Extended
+    Other languages        Extended
+    lower-case letters     Critical path
+    upper-case letters     Critical path
+    Numbers                Critical path
+    Special characters(~`!@#$%^&*'()_+=-\|</>{.}[,]";:?) Critical path
+    Spaces at the end and beginning (Must be taken as part of the password) Critical path
+    field E-mail and password match Critical path
+    Tags (<script>alert('test')</script> ; <p>test</p>) Extended
