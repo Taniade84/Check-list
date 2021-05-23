@@ -44,11 +44,16 @@ Password
     Spaces at the end and beginning (Must be taken as part of the password) Critical path
     Field E-mail and password match Critical path
     Tags (<script>alert('test')</script> ; <p>test</p>) Extended
-Checkboxes Date of Birth
+Checkboxes 
     Enter a valid date        Smoke
     Enter a non-existent date Extended
     Selected values are not saved  Crical path
-    dates are not selectable  Critical path
+    Dates are not selectable  Critical path
+"CREATE ACCOUNT" button
+    Click the button once                        Critical path
+    Press the button repeatedly                  Critical path
+    Сlick on the empty space next to the button  Critical path
+    Desing (size, font,color, form)              Critical path
     
     
     
